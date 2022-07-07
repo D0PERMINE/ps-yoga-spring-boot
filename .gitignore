@@ -14,7 +14,8 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+*../.idea
+*.idea
 *.iws
 *.iml
 *.ipr
@@ -31,3 +32,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### txt files
+*.txt
+
+### other
+/.idea/workspace.xml
