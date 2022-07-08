@@ -18,8 +18,8 @@ public class RestService {
 
     private final RestTemplate restTemplate;
     private final String redirectUri = "https://springboot-app-yoga-heorku.herokuapp.com";
-    private final String clientId = "bi123yeUTyEWA0VEHzw9g";
-    private final String clientSecret = "b9wBflSmtJbvFHqh4siGGH6mjVTLjkJb";
+    private final String clientId = "ikA0hZoXR4eLu_Dw7WgWdw";
+    private final String clientSecret = "QOC7hOYKtAklhJ5OcBCxjMLhU3YM6cYH";
     private final String idAndSecret = clientId + ":" + clientSecret;
     private String encodedidAndSecret = Base64.getEncoder().encodeToString(idAndSecret.getBytes());
 
