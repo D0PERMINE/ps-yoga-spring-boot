@@ -17,9 +17,9 @@ import java.util.Map;
 public class RestService {
 
     private final RestTemplate restTemplate;
-    private final String redirectUri = "https://5170-2003-ea-1717-fb27-f436-c95-412b-212e.eu.ngrok.io";
-    private final String clientId = "dvdxc0Z2SsWaOebq32qlvA";
-    private final String clientSecret = "u8Wmy1Emv3p1V1ieP68GPjmDgvyVdJuV";
+    private final String redirectUri = "https://springboot-app-yoga-heorku.herokuapp.com";
+    private final String clientId = "bi123yeUTyEWA0VEHzw9g";
+    private final String clientSecret = "b9wBflSmtJbvFHqh4siGGH6mjVTLjkJb";
     private final String idAndSecret = clientId + ":" + clientSecret;
     private String encodedidAndSecret = Base64.getEncoder().encodeToString(idAndSecret.getBytes());
 
